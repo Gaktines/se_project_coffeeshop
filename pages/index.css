@@ -1,0 +1,10 @@
+@import url("./vendor/normalize.css");
+
+@font-face {
+  font-family: "Inter", "Arial", sans-serif;
+  src: url("fonts.google.com");
+}
+@font-face {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  src: url("fonts.google.com");
+}
