@@ -7,13 +7,17 @@
 }
 
 .header__title {
-  display: block;
   font-size: 66px;
   line-height: 75px;
   font-weight: 500;
   margin-left: 80px;
   margin-top: 80px;
   max-width: 729px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
 }
 
 .header__description {
@@ -22,6 +26,11 @@
   margin-left: 80px;
   margin-top: 20px;
   max-width: 683px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
@@ -33,25 +42,34 @@
   right: 5px;
 }
 
-.header__paragraph {
+.header__footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.header__paragraph_hours {
   margin-left: 80px;
   margin-bottom: 40px;
 }
-.header__paragraph_address {
+.header__paragraph {
   margin-right: 80px;
   margin-bottom: 40px;
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
+
 .header-background {
-  /*background-color: #ffffff;*/
+  background-color: #ffffff;
   background-image: url("./images/background_header.svg");
   size: cover;
 }
 .header__span-accent {
   font-style: italic;
-  color: blue;
+  color: #2f80ed;
+  font-family: Noto Serif;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
 }
