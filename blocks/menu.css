@@ -52,3 +52,15 @@
   font-size: 20px;
   line-height: 30px;
 }
+.card__list-divider {
+  border-bottom: solid white 1px;
+  flex-grow: -1;
+  display: flex;
+}
+.card_list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
