@@ -3,14 +3,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: #0a2750;
-  text-decoration-color: white;
-
-}
-.menu-background {
-  color:#0a2750;
-  background-image: url("../images/background-menu.svg")
+  background-image: url("../images/background_menu.svg");
   size: cover;
+  color: white;
 }
+
 .menu__title {
   align-self: center;
   margin-top: 100px;
