@@ -39,6 +39,7 @@
 .card {
   list-style: none;
   max-width: 600px;
+  min-width: 600px;
   font-family: Noto Serif;
   font-style: normal;
   font-size: 16px;
@@ -53,14 +54,12 @@
   line-height: 30px;
 }
 .card__list-divider {
-  border-bottom: solid white 1px;
-  flex-grow: -1;
   display: flex;
+  border-bottom: solid white 1px;
+  flex-grow: 1;
 }
-.card_list-item {
-  list-style: none;
+.card__list-item {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  list-style: none;
 }

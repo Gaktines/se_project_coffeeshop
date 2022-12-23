@@ -96,8 +96,7 @@
               <h3 class="card__title">Baked Goods</h3>
               <li class="card__list-item" >Almond Croissant
                 <span class="card__list-divider"></span>$2</li>
-              <li class="card__list-item">Banana Bread
-                <span class="card__list-divider"></span>$1.75</li>
+              <li class="card__list-item">Banana Bread<span class="card__list-divider"></span>$1.75</li>
               <li class="card__list-item">Key Lime Pie
                 <span class="card__list-divider"></span>$3</li>
               <li class="card__list-item">Blue Velvet Cake
@@ -115,11 +114,41 @@
           <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
           <div class="recipes__videos"></div>
           <iframe class="recipes__iframe" src="https://www.youtube.com/watch?v=j6VIT_jUVPc" ></iframe>
+          <p class="recipes__video-caption">Aeropress recipe
+          ~5 min</p>
           <iframe class="recipes__iframe" src="https://www.youtube.com/watch?v=st571DYYTR8"></iframe>
+          <p class="recipes__video-caption">French press recipe
+            ~15 min</p>
           </div>
 
 
         </section>
+        <div class="reservation__form" id="anchor-table">
+          <form class="form">
+            <h1 class="form__title">Book a Table</h1>
+            <fieldset class="form__fieldset">
+              <p>Name*<p>
+              <input type="text" class="form__input" id="name" name="name" placeholder="Name Surname" required/>
+              <p>Number of Guests*</p>
+              <input type="number" class="form__input" id="number" name="number of guests" placeholder="1-8" required/>
+              <p>Date & time*</p>
+              <input type="datetime-local" class="form__input" id="datetime" name="datetime" required />
+              <p>Your email*</p>
+              <input type="email" class="form__input" id="email" name="email" placeholder="email@email.com" required/>
+
+
+              <button type="submit" class="form__button">Book a table</button>
+
+              <input
+                type="checkbox"
+                class="form__input form__input_type_checkbox"
+                 name="terms"
+                 id="terms"
+                 />
+          <label for="terms" class="form__label">I agree with the terms of use.</label>
+            </fieldset>
+          </form>
+        </div>
 
       </main>
       <footer class="footer">
