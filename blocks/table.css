@@ -19,14 +19,45 @@
   border-radius: 4px;
   margin-bottom: 32px;
   margin-top: 8px;
+  height: 60px;
 }
 .form__button {
   border-radius: 4px;
+  margin-top: 32px;
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 .form__checkbox {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  margin-top: 32px;
 }
 .form__title {
   margin: 0 auto;
   margin-top: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
