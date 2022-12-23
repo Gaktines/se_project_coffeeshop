@@ -32,6 +32,7 @@
   margin-bottom: 215px;
   justify-content: space-around;
   gap: 40px;
+  list-style: none;
 }
 .recipe__videos-caption {
   font-family: Inter;
