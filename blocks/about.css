@@ -1,5 +1,8 @@
 .about {
+  display: flex;
+  flex-direction: row;
   box-sizing: border-box;
+  background-color: navy;
 }
 
 .about__circle {
@@ -10,4 +13,17 @@
   position: absolute;
   top: -121px;
   left: -91px;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  margin: 0 auto;
+  margin-top: 119px;
+  margin-bottom: 173px;
+  margin-right: 80px;
+  color: white;
+}
+.about__title {
+  color: white;
 }
