@@ -1,0 +1,13 @@
+.about {
+  box-sizing: border-box;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+  position: absolute;
+  top: -121px;
+  left: -91px;
+}

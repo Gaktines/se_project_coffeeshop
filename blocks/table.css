@@ -35,10 +35,12 @@
   font-size: 16px;
   line-height: 20px;
   opacity: 0.7;
+  color: white;
+  background-color: blue;
 }
 .form__botton:hover {
   opacity: 1;
-  transition: all 0.4s ease;
+  transition: 0.4s ease;
 }
 .form__checkbox {
   border-radius: 2px;
@@ -61,6 +63,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
 }
 .placeholder {
   font-family: Inter;
