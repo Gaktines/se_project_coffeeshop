@@ -35,6 +35,9 @@
               </a>
             </li>
             <li>
+              <a class="nav__link" href="#anchor-about">About</a>
+            </li>
+            <li>
               <a class="nav__link" href="#anchor-contacts">Contacts</a>
             </li>
           </ul>
@@ -152,10 +155,11 @@
           </form>
 
         </div>
-        <section class="about">
-
-          <h2 class="about__title">About the coffee shop</h2>
+        <section class="about" id="anchor-about">
           <div class="about__circle"></div>
+          <div class="about__circle_animation_blurred"></div>
+          <h2 class="about__title">About the coffee shop</h2>
+
           <div class="about__content">
             <p class="about__paragraph">Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi.</p>
             <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
@@ -164,6 +168,44 @@
         </section>
       </main>
       <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__column">
+            <img
+              src="./images/practicum_logo.svg"
+              alt="Practicum Logo"
+              class="footer__logo"
+            />
+          </div>
+
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Social media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">2022 George Aktines</p>
+
+
 
       </footer>
 
