@@ -3,6 +3,8 @@
   flex-direction: row;
   box-sizing: border-box;
   background-color: navy;
+  position: relative;
+  overflow: hidden;
 }
 
 .about__circle {
@@ -10,10 +12,9 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   top: -152px;
   left: -129px;
-  overflow: hidden;
 }
 .about__content {
   display: flex;
