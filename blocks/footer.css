@@ -3,6 +3,7 @@
 }
 .footer__content {
   display: flex;
+  flex-direction: row;
 }
 .footer__social {
   display: flex;

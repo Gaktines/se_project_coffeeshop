@@ -49,19 +49,18 @@
 .header__footer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 80px;
-  margin-bottom: 40px;
+  position: absolute;
+  justify-content: space-evenly;
 }
 .header__paragraph {
-  margin-right: 80px;
-  margin-bottom: 40px;
+  margin: 0;
   margin-top: 20px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  justify-content: space-evenly;
 }
 
 .header__span-accent {
