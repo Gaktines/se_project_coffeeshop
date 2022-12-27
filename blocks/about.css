@@ -15,6 +15,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
+  animation: pulse 4s infinite;
 }
 .about__content {
   display: flex;
@@ -44,7 +45,7 @@
   font-size: 44px;
   line-height: 52px;
 }
-@keyframes pulsate {
+@keyframes pulse {
   from {
     opacity: 0;
   }
