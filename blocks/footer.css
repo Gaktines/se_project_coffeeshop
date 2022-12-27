@@ -4,9 +4,9 @@
 .footer__content {
   display: flex;
   flex-direction: row;
-  margin-top: 60px;
-  margin-right: 100px;
-  margin-bottom: 108px;
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-bottom: 108px;
   justify-content: space-between;
   font-size: 16px;
   line-height: 20px;
@@ -27,12 +27,14 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 .footer__social-link {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 16px;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
@@ -43,7 +45,8 @@
   width: 16px;
 }
 .footer__copyright {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
   color: white;
   font-family: Inter;
   font-style: normal;
@@ -52,6 +55,6 @@
   line-height: 20px;
 }
 .footer__logo {
-  margin-top: 60px;
-  margin-left: 80px;
+  padding-top: 60px;
+  padding-left: 80px;
 }
