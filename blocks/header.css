@@ -11,9 +11,6 @@
 }
 
 .header__title {
-  font-size: 66px;
-  line-height: 75px;
-  font-weight: 500;
   margin-left: 80px;
   margin-top: 80px;
   max-width: 729px;
@@ -25,8 +22,6 @@
 }
 
 .header__description {
-  font-size: 20px;
-  line-height: 30px;
   margin-left: 80px;
   margin-top: 20px;
   max-width: 683px;
