@@ -17,13 +17,6 @@
   left: -129px;
 }
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   animation: pulse 4s infinite;
 }
 .about__content {
@@ -40,6 +33,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  gap: 20px;
 }
 .about__title {
   color: white;
@@ -70,5 +64,6 @@
   }
 }
 .about__paragraph {
-  gap: 20px;
+  margin: 0;
+  padding: 0;
 }
