@@ -67,3 +67,7 @@
 .footer__list-item {
   margin-bottom: 16px;
 }
+.footer__list-item:last-child {
+  margin: 0;
+  padding: 0;
+}
